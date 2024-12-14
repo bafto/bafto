@@ -1,0 +1,24 @@
+baseURL = "https://bafto.dev/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Lynx"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+  name = "Hendrik Ziegler"
+  # headline = "An awesome person"
+  # image = "img/transparent.png"  # path relative to static directory
+
+  links = [
+    { github = "https://github.com/bafto" },
+	{ ddp = { href = "https://ddp.im/", text = "DDP", icon = "ddp-logo" } },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
+
